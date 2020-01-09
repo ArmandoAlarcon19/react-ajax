@@ -28,9 +28,9 @@ class Ajax extends Component{
       {
         this.state.articles.map((article)=> {
           return (
-            <div>
-            <h1>{article.title}</h1>
-            <p>{article.body}</p>
+            <div className="card">
+            <h1 style={{color:'#fff'}}>{article.title}</h1>
+            <p style={{color:'#fff',fontSize:'25px'}}>{article.body}</p>
           </div>)
         })
       }
